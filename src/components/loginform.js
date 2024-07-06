@@ -36,6 +36,6 @@ const LoginForm = ({ onLogin }) => {
         <button type="submit">Login</button>
       </form>
     );
-  };
+};
   
 export default LoginForm;

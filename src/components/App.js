@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Parent component</h1>
+      <h1>Parent Component</h1>
         {
           isLoggedIn ? (
             <h1>You are logged in!</h1>

@@ -1,6 +1,6 @@
 
 //import React from "react";
-//import './../styles/App.css';
+import './../styles/App.css';
 import React, { useState } from 'react';
 import LoginForm from './LoginForm';
 
@@ -15,7 +15,7 @@ const App = () => {
     <div>
         {
           isLoggedIn ? (
-            <h1>Welcome!</h1>
+            <h1>You are logged in!</h1>
           ) : (
             <LoginForm onLogin={handleLogin} />
           )
